@@ -16,7 +16,7 @@ The data is first extracted in CSV and JSON formats. Then it is transformed into
 The clean_movie function was used to combine the data of other languages into one alt_titles column. The change_column_name function organizes the column names. 
 
 ### ETL_clean_kaggle_data
-Here, we extract clean and transfrom the Kaggle metagata by: changing the data types,  fill any missing value and filer out any unwanted columns, and merge the dataframes together. 
+Here, we extract, clean and transfrom the Kaggle metagata by: changing the data types, fill any missing value and filer out any unwanted columns, and merge the dataframes together. 
 
 ### ETL_create_database
 Finally, we connect the dataframe to a SQL databse. 
